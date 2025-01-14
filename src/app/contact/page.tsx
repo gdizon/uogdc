@@ -1,4 +1,4 @@
-import { Section } from 'lucide-react';
+// import { Section } from 'lucide-react';
 import React from 'react';
 import './contact.css'
 

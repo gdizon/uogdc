@@ -1,14 +1,14 @@
-import { Section } from 'lucide-react';
+// import { Section } from 'lucide-react';
 import React from 'react';
 import './home.css'
 
 const Home = () => {
-    const scrollToSection = (sectionId: string) => {
-        const element = document.getElementById(sectionId);
-        if (element) {
-            element.scrollIntoView({ behavior: 'smooth' });
-        }
-    }
+    // const scrollToSection = (sectionId: string) => {
+    //     const element = document.getElementById(sectionId);
+    //     if (element) {
+    //         element.scrollIntoView({ behavior: 'smooth' });
+    //     }
+    // }
 
     return (
         <section id="home">
