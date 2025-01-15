@@ -1,5 +1,13 @@
-export default function Activities() {
-    return(<>
-        <h1>This is where the activities carousel will go.</h1>
-    </>);
+// import { Section } from 'lucide-react';
+import React from 'react';
+import './activities.css';
+
+const Activities = () => {
+    return (
+        <section id="activities">
+            <h1>Activities</h1>
+        </section>
+    );
 }
+
+export default Activities;

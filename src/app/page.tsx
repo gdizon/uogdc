@@ -1,12 +1,36 @@
 // import { products } from '@/utils/products';
 import '../../public/css/style.css';
+import { Button } from "@/components/ui/button"
+
+import Home from './home/page';
+import About from './about/page';
+import Activities from './activities/page';
+import Contact from './contact/page';
+
+// export function ButtonSecondary(link: string, => {
+//     butt = link
+// }) {
+//     return <Button variant={"secondary"}>{butt}</Button>
+// }
+
+// export function ButtonDemo(word: string) {
+//   return <Button variant={"secondary"}>{word}</Button>
+// }
 
 
-export default function Home(){
+export default function Homepage(){
     return (<>
-    
-        <h1 className='text-centre'>Welcome to the uOttawa Game Development Club website!</h1>
-    
+        <div>
+            <Button>Home</Button>
+            <Button>About Us</Button>
+            <Button>Activities</Button>
+            <Button>Contact Us</Button>
+        </div>
+        <Home />
+        <About />
+        <Activities />
+        <Contact />
+
     </>)
 }
 
