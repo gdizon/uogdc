@@ -13,9 +13,9 @@ import Contact from './contact/page';
 //     return <Button variant={"secondary"}>{butt}</Button>
 // }
 
-export function ButtonDemo(word: string) {
-  return <Button variant={"secondary"}>{word}</Button>
-}
+// export function ButtonDemo(word: string) {
+//   return <Button variant={"secondary"}>{word}</Button>
+// }
 
 
 export default function Homepage(){
