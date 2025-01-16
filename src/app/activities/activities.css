@@ -1,5 +1,8 @@
 #activities {
     background-color: #4b286b;
+    background: linear-gradient(180deg, #4b286b 10%,#1a0a1e 100%);
+
     color: white;
+    
     height: 100vh;
 }

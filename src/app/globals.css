@@ -64,3 +64,11 @@
     @apply bg-background text-foreground;
   }
 }
+
+.fixedButtons {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 10000000;
+  gap: 10px;
+}
