@@ -1,6 +1,10 @@
+"use client";
+
 // import { products } from '@/utils/products';
 import '../../public/css/style.css';
-import { Button } from "@/components/ui/button"
+import { Button } from "@/components/ui/button";
+import './globals.css';
+
 
 import Home from './home/page';
 import About from './about/page';
@@ -19,12 +23,20 @@ import Contact from './contact/page';
 
 
 export default function Homepage(){
+
+    const scrollToSection = (sectionId: string) => {
+        const element = document.getElementById(sectionId);
+        if( element ) {
+            element.scrollIntoView({ behavior: 'smooth' });
+        };
+    }
+
     return (<>
-        <div>
-            <Button>Home</Button>
-            <Button>About Us</Button>
-            <Button>Activities</Button>
-            <Button>Contact Us</Button>
+        <div className='fixedButtons'>
+            <Button onClick={() => scrollToSection('home')}>Home</Button>
+            <Button onClick={() => scrollToSection('about')}>About Us</Button>
+            <Button onClick={() => scrollToSection('activities')}>Activities</Button>
+            <Button onClick={() => scrollToSection('contact')}>Contact Us</Button>
         </div>
         <Home />
         <About />
