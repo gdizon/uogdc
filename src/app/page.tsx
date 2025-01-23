@@ -5,6 +5,7 @@ import '../../public/css/style.css';
 import { Button } from "@/components/ui/button";
 import './globals.css';
 
+
 import Home from './home/page';
 import About from './about/page';
 import Activities from './activities/page';
