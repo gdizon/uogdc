@@ -1,6 +1,20 @@
 #home {
+
     height: 100vh;
     background-color: #4b286b;
     background: linear-gradient(180deg, #4b286b 10%,#1a0a1e 100%);
+
     color: white;
+
+    display: flex;
+    justify-content: center;
+    padding-top: 10vh;
+}
+
+.title {
+
+    font-family: 'Pixeled', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+
 }

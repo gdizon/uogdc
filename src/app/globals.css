@@ -65,6 +65,17 @@
   }
 }
 
+/* @font-face {
+  font-family: 'Pixeled';
+  src: url('/public/fonts/Pixeled.ttf') format('ttf');
+       font-weight: normal;
+       font-style: normal;
+}
+
+:root {
+  --Pixeled: 'Pixeled'
+} */
+
 .fixedButtons {
   position: fixed;
   top: 20px;

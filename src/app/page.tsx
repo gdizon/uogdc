@@ -7,8 +7,8 @@ import './globals.css';
 
 
 import Home from './home/page';
-import About from './about/page';
 import Activities from './activities/page';
+import About from './about/page';
 import Contact from './contact/page';
 
 // export function ButtonSecondary(link: string, => {
@@ -34,13 +34,13 @@ export default function Homepage(){
     return (<>
         <div className='fixedButtons'>
             <Button onClick={() => scrollToSection('home')}>Home</Button>
-            <Button onClick={() => scrollToSection('about')}>About Us</Button>
             <Button onClick={() => scrollToSection('activities')}>Activities</Button>
+            <Button onClick={() => scrollToSection('about')}>About Us</Button>
             <Button onClick={() => scrollToSection('contact')}>Contact Us</Button>
         </div>
         <Home />
-        <About />
         <Activities />
+        <About />
         <Contact />
 
     </>)
