@@ -65,21 +65,158 @@
   }
 }
 
-/* @font-face {
-  font-family: 'Pixeled';
-  src: url('/public/fonts/Pixeled.ttf') format('ttf');
-       font-weight: normal;
-       font-style: normal;
+
+
+
+/*---------------------------------------------------------------------------------------------------*/
+/* FONT IMPORTS  */
+@font-face {
+  font-family: 'pixeled';
+  src: url('../../public/fonts/Pixeled.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
-:root {
-  --Pixeled: 'Pixeled'
-} */
+@font-face {
+  font-family: 'pixelmania';
+  src: url('../../public/fonts/Pixelmania.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
-.fixedButtons {
+@font-face {
+  font-family: 'Gameplay';
+  src: url(../../public/fonts/Gameplay.ttf), format('truetype');
+  font-weight:lighter;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DOS';
+  src: url('../../public/fonts/Good-Old-DOS.ttf'), format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/*---------------------------------------------------------------------------------------------------*/
+
+
+
+/* ----------------------------------NAVIGATION BAR--------------------------------------------------*/
+.nav-bar {
+  background-color: red;
+  color: white;
+  border-top: 3px solid #aeff1a;
+  border-bottom: 3px solid #06e7db;
+
+  display: flex;
   position: fixed;
-  top: 20px;
-  right: 20px;
-  z-index: 10000000;
-  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  height: 4rem;
+  
+  margin-top: 1rem;
+
+  
+
+  z-index: 2374994877934499743989;
 }
+
+/*This is the css for the title "uOttawa Game Dev Club"*/
+#left-nav-side {
+  font-size: 2rem;
+  
+
+  justify-content: space-between;
+  gap: 10px;
+  padding: 1rem 2rem 0.75rem 2rem;
+  font-size: 3rem;
+
+
+  font-family: 'DOS';
+  letter-spacing: 0.25rem;
+
+  z-index: 174994877934499743989;
+}
+
+/* This is the css for the buttons on the right*/
+#right-nav-side {
+  position: sticky;
+
+  /* align-items: center; */
+  display: flex;
+  padding-right: 0.5rem;
+  gap: 0.25rem;
+
+  font-size: small;
+  font-family: 'pixeled';
+
+  z-index: 174994877934499743989;
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+
+
+/*---------------------------------------------BUTTONS-----------------------------------------------*/
+
+/* Home Button -------------------------------*/
+
+.home-button {
+
+  border-top: 2px solid #aeff1a;
+  border-left: 2px solid #aeff1a;
+  border-bottom: 2px solid #06e7db;
+  border-right: 2px solid #06e7db;
+
+  padding: 0.5rem 1rem;
+
+  font-size: 1rem;
+}
+
+/* Activities Button --------------------------*/
+
+.activities-button {
+
+  border-top: 2px solid #aeff1a;
+  border-left: 2px solid #aeff1a;
+  border-bottom: 2px solid #06e7db;
+  border-right: 2px solid #06e7db;
+
+  padding: 0.5rem 1rem;
+
+  font-size: 1rem;
+}
+
+/* About Button --------------------------------*/
+
+.about-button {
+
+  border-top: 2px solid #aeff1a;
+  border-left: 2px solid #aeff1a;
+  border-bottom: 2px solid #06e7db;
+  border-right: 2px solid #06e7db;
+  
+  padding: 0.5rem 1rem;
+  
+  font-size: 1rem;
+
+}
+
+/* Contact Button -------------------------------*/
+
+.contact-button {
+  
+  border-top: 2px solid #aeff1a;
+  border-left: 2px solid #aeff1a;
+  border-bottom: 2px solid #06e7db;
+  border-right: 2px solid #06e7db;
+  
+  padding: 0.5rem 1rem;
+  
+  font-size: 1rem;
+}
+
+/*---------------------------------------------------------------------------------------------------*/
