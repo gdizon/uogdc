@@ -1,5 +1,8 @@
-import React from 'react';
 import './home.css'
+
+import React from 'react';
+import Image from 'next/image';
+
 import { Button } from '@/components/ui/button';
 
 
@@ -23,7 +26,13 @@ const Home = () => {
                 <Button className='btn'>JOIN NOW</Button>
             </div>
             <div className='right-half'>
-                <img src='../../public/imgs/mac-falling-transparent.png'/>
+                <Image 
+                    src="/imgs/mac-falling-transparent.png"
+                    alt="Mac Hompage Image"
+                    width={500}
+                    height={500}
+                    className='mac-homepage'
+                />
             </div>
         </section>
     );

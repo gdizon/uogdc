@@ -11,10 +11,13 @@
 .left-half {
    
     padding-top: 20vh ;
+    padding-left: 5vh;
    
     display: flex;
     flex-direction: column;
     justify-self: flex-start;
+
+    width: 50%;
 }
 
 .title {
@@ -60,11 +63,18 @@
     position: relative;
 
 
-    width: 13rem ;
-
+    width: 12vw ;
+    height: 7vh;
 }
 
+.right-half {
+    padding-left: 7vw;
+    width: 50%;
+}
 
+.mac-homepage {
+    padding-top: 25vh;
+    padding-right:4vw;
 
-
-/* background: linear-gradient(180deg, #4b286b 10%,#1a0a1e 100%); */
+    margin: 0;
+}
