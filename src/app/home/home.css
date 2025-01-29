@@ -1,24 +1,66 @@
 #home {
     background-color: #16082b;
-    color: white;
 
     height: 100vh;
-    
-    
-
-    
 
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    padding-top: 10vh;
+}
+
+.left-half {
+   
+    padding-top: 20vh ;
+   
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-start;
 }
 
 .title {
 
-    font-family: 'Pixeled', sans-serif;
-    font-size: 3rem;
-    font-weight: 700;
     color: white;
+
+     padding-left: 5vw;
+
+    font-family: 'Join-the-club', sans-serif;
+    font-size: 9vw;
+
+
+}
+
+.description {
+
+    color: white;
+
+    padding-left: 5vw;
+    bottom: 5vh;
+
+    font-family: 'general-writing';
+    font-size: 2vw;
+    font-weight: 300;
+    
+    flex-wrap: wrap;
+}
+
+.btn {
+    border-top: 3px solid #aeff1a;
+    border-left: 3px solid #aeff1a;
+    border-bottom: 3px solid #06e7db;
+    border-right: 3px solid #06e7db;
+
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+
+    font-family: 'join-the-club';
+    font-size: 4vw;
+
+    left:5vw;
+    top: 10vh;
+    position: relative;
+
+
+    width: 13rem ;
 
 }
 

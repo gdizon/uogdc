@@ -112,9 +112,22 @@
   font-style: normal;
 }
 
+/*--------- Font: Join-the-club ---------*/
+/* USED IN:                                   
+            Title: JOIN THE CLUB! 
+            [ADD NEXT SECTION]
+            ...
+*/
 @font-face {
   font-family: 'Join-the-club';
   src: url(../../public/fonts/January\ Sunday.otf), format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'general-writing';
+  src: url(../../public/fonts/Description/AlteHaasGroteskRegular.ttf), format('truetype');
   font-weight: normal;
   font-style: normal;
 }
