@@ -33,16 +33,16 @@ export default function Homepage(){
 
     return (<>
 
-        <div>
+        <div className='default-page'>
             <nav className='nav-bar'>
                 <div id='left-nav-side'>
                     <h1>UOTTAWA GAME DEV CLUB</h1>
                 </div>
                 <div className='fixedButtons' id='right-nav-side'>
-                    <Button className='home-button' onClick={() => scrollToSection('home')}>Home</Button>
-                    <Button className='activities-button' onClick={() => scrollToSection('activities')}>Activities</Button>
-                    <Button className='about-button' onClick={() => scrollToSection('about')}>About Us</Button>
-                    <Button className='contact-button' onClick={() => scrollToSection('contact')}>Contact Us</Button>
+                    <Button className='home-button' onClick={() => scrollToSection('home')}>HOME</Button>
+                    <Button className='activities-button' onClick={() => scrollToSection('activities')}>ACTIVITIES</Button>
+                    <Button className='about-button' onClick={() => scrollToSection('about')}>ABOUT US</Button>
+                    <Button className='contact-button' onClick={() => scrollToSection('contact')}>CONTACT US</Button>
                 </div>
             </nav>
         </div>

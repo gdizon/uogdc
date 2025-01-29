@@ -1,6 +1,5 @@
 #home {
-    background: linear-gradient(180deg, #4b286b 10%,#1a0a1e 100%);
-    background-color: #4b286b;
+    background-color: #16082b;
     color: white;
 
     height: 100vh;
@@ -19,5 +18,11 @@
     font-family: 'Pixeled', sans-serif;
     font-size: 3rem;
     font-weight: 700;
+    color: white;
 
 }
+
+
+
+
+/* background: linear-gradient(180deg, #4b286b 10%,#1a0a1e 100%); */

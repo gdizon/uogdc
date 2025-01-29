@@ -19,9 +19,9 @@ const Home = () => {
 
     return (
         <section id="home" className='title'>
-            {/* <div>
-                <h1>Welcome to the uOttawa Game Development Club website!</h1>
-            </div> */}
+            <div>
+                <h1>JOIN THE CLUB!</h1>
+            </div>
         </section>
     );
 }
