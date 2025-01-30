@@ -5,7 +5,12 @@ import './activities.css';
 const Activities = () => {
     return (
         <section id="activities">
-            <h1>Activities</h1>
+            <div className='title'>
+                <h1 className='activities-title'>ACTIVITIES</h1>
+            </div>
+            <div className='jams'>
+                
+            </div>
         </section>
     );
 }
