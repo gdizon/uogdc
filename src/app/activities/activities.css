@@ -1,3 +1,6 @@
+/* ACTIVITIES PAGE */
+
+/*---------------- Activities Base ----------------*/
 #activities {
     background-color: #3c2b54;
 
@@ -8,9 +11,147 @@
     align-items: center;
     
     height: 100vh;
+    overflow: hidden;
+}
+/*-------------------------------------------------*/
+
+/*---------------- Activities Title ----------------*/
+.activities-title {
+    padding-top: 10vh;
+    padding-right: 5vw;
+}
+/*--------------------------------------------------*/
+
+
+/*-------------------------------% JAMS %-------------------------------*/
+
+/*---------- Basic Jams Layout ----------*/
+.jams {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 7.5vw;
+
+    height: 40vh;
+    width: 100vw;
+
+    z-index: 1;
+}
+/*----------------------------------------*/
+
+
+
+.left-box {
+    background-color: #16082b;
+
+    border-radius: 25px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 30vh;
+    width: 20vw;
+    
+    margin-left: 10vw;
+
+    z-index: 2;
 }
 
-.activities-title {
+.left-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-    padding-top: 10vh;
+    margin-top: 3vh;
+    margin-left: 10vw;
+
+    font-family: 'general-writing-bold';
+    font-size: 3vh;
+}
+
+.left-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 10vw;
+
+    font-family: 'general-writing';
+}
+
+.middle-box {
+    background-color: #16082b;
+
+    border-radius: 25px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 30vh;
+    width: 20vw;
+
+    z-index: 2;
+}
+
+.middle-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 3vh;
+
+    font-family: 'general-writing-bold';
+    font-size: 3vh;
+}
+
+.middle-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: 'general-writing';
+}
+
+.right-box {
+    background-color: #16082b;
+
+    border-radius: 25px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 30vh;
+    width: 20vw;
+
+    margin-right: 10vw;
+
+    z-index: 2;
+}
+
+.right-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 3vh;
+    margin-right: 10vw;
+
+    font-family: 'general-writing-bold';
+    font-size: 3vh;
+}
+
+.right-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-right: 10vw;
+    
+    font-family: 'general-writing';
 }

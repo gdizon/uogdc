@@ -27,7 +27,7 @@ const Home = () => {
             </div>
             <div className='right-half'>
                 <Image 
-                    src="/imgs/mac-falling-transparent.png"
+                    src="/imgs/Mac/mac-falling-transparent.png"
                     alt="Mac Hompage Image"
                     width={500}
                     height={500}

@@ -112,25 +112,50 @@
   font-style: normal;
 }
 
-/*--------- Font: Join-the-club ---------*/
+/*--------- Font: Titles ---------*/
 /* USED IN:                                   
             Title: JOIN THE CLUB! 
+            Button: JOIN NOW
             Title: ACTIVITIES
             ...
 */
 @font-face {
-  font-family: 'Join-the-club';
+  font-family: 'Titles';
   src: url(../../public/fonts/January\ Sunday.otf), format('opentype');
   font-weight: normal;
   font-style: normal;
 }
 
+/*--------- Font: general-writing  ---------*/
+/* USED IN:                                   
+    HOME:        
+        Homepage description 
+    ACTIVITIES:
+        Game Jam description
+        Game jam footnote
+            ...
+*/
 @font-face {
   font-family: 'general-writing';
   src: url(../../public/fonts/Description/AlteHaasGroteskRegular.ttf), format('truetype');
   font-weight: normal;
   font-style: normal;
 }
+/*------------------------------------------*/
+
+/*--------- Font: general-writing-bold  ---------*/
+/* USED IN:                                    
+    ACTIVITIES:
+        Game jam titles
+            ...
+*/
+@font-face {
+  font-family: 'general-writing-bold';
+  src: url(../../public/fonts/Description/AlteHaasGroteskBold.ttf), format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+/*-----------------------------------------------*/
 
 @font-face {
   font-family: 'Jogan';
