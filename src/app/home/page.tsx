@@ -2,6 +2,7 @@ import './home.css'
 
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 import { Button } from '@/components/ui/button';
 
@@ -23,7 +24,9 @@ const Home = () => {
                 <p className='description'>
                     Connect with like-minded game developers, learn new skills, and collaborate on exciting projects!
                 </p>
-                <Button className='btn'>JOIN NOW</Button>
+                <Link href='https://forms.office.com/r/gMUWQT8KYS' target='_blank'>
+                    <Button className='btn'>JOIN NOW</Button>
+                </Link>
             </div>
             <div className='right-half'>
                 <Image 

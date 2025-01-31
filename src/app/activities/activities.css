@@ -1,22 +1,34 @@
-/* ACTIVITIES PAGE */
+/* ACTIVITIES CSS PAGE */
+/* University of Ottawa Game Development Club */
+/* Code by: Genevieve Dizon */
+/* Edited by: [INSERT NAME(S) HERE] */
+
+/* NOT DONE COMMENTING */
 
 /*---------------- Activities Base ----------------*/
 #activities {
+    /* background colour of the page */
     background-color: #3c2b54;
 
+    /* colour of the text */
     color: white;
 
+    /* we want the title, boxes, and footnote vertically */
     display: flex;
     flex-direction: column;
     align-items: center;
     
+    /* makes the height of the page to be 100% of the viewport */
     height: 100vh;
+    /* makes it so there aren't any blank white lines on the edges */
     overflow: hidden;
 }
 /*-------------------------------------------------*/
 
 /*---------------- Activities Title ----------------*/
 .activities-title {
+    /* padding is to position the title below the navbar and looks more centered.
+    Take off padding-right if you want it further to the right*/
     padding-top: 10vh;
     padding-right: 5vw;
 }
@@ -26,51 +38,78 @@
 /*-------------------------------% JAMS %-------------------------------*/
 
 /*---------- Basic Jams Layout ----------*/
+/* the boxes in general*/
 .jams {
+    /* we want the boxes to be beside each other and centered,
+    also put a 7.5 view width between the boxes */
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 7.5vw;
 
+    /* Put the size of the boxes to align with the viewport's width and height */
     height: 40vh;
     width: 100vw;
-
-    z-index: 1;
 }
 /*----------------------------------------*/
 
 
-
+/*-------------------- Left Section --------------------*/
+/* ----- General Left Box ----- */
 .left-box {
+    /* Makes the background colour */
     background-color: #16082b;
 
+    /* Makes the boxes rounded */
     border-radius: 25px;
 
+    /* Display */
+    /* we want the boxes to have the box, title, and description on top of each other 
+    and we want everything to be centered*/
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
+    /* height and width */
     height: 30vh;
     width: 20vw;
     
+    /* box defaults fully to the left, so I added a margin to add space
+    between the left side and the left box */
     margin-left: 10vw;
 
-    z-index: 2;
+    /* makes the box grow in 0.3 seconds in an easy way */
+    transition: transform 0.3s ease;
+
+    /* Not really needed because I already made the box a link, but makes
+    it so the box is clickable (but doesn't lead to a link) */
+    cursor: pointer;
 }
 
+/* This is what makes the left box grow when hovered */
+.left-box:hover {
+    transform: scale(1.1);
+}
+
+/* This is the white title below the box */
 .left-title {
+    /* we want the title to show and be centered */
     display: flex;
     justify-content: center;
     align-items: center;
 
+    /* this shows the spacing between the title and the box
+    also since the box is put margin: 10vw, I needed to put it here too */
     margin-top: 3vh;
     margin-left: 10vw;
 
+    /* using the external font I imported */
     font-family: 'general-writing-bold';
     font-size: 3vh;
 }
 
+/* HERE */
 .left-description {
     display: flex;
     justify-content: center;
@@ -94,7 +133,13 @@
     height: 30vh;
     width: 20vw;
 
+    transition: transform 0.3s ease;
+
     z-index: 2;
+}
+
+.middle-box:hover {
+    transform: scale(1.1);
 }
 
 .middle-title {
@@ -131,7 +176,13 @@
 
     margin-right: 10vw;
 
+    transition: transform 0.3s ease;
+
     z-index: 2;
+}
+
+.right-box:hover {
+    transform: scale(1.1);
 }
 
 .right-title {
@@ -154,4 +205,8 @@
     margin-right: 10vw;
     
     font-family: 'general-writing';
+}
+
+.footnote {
+    margin-top: 10vh;
 }
