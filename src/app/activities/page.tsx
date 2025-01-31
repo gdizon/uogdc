@@ -28,7 +28,7 @@ const Activities = () => {
                         Boxed In
                     </h1>
                     <h2 className='left-description'>
-                        What's your interpretation of boxed in?
+                        What&apos;s your interpretation of boxed in?
                     </h2>
                 </div>
                 <div>
