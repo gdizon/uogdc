@@ -135,7 +135,7 @@
 
     transition: transform 0.3s ease;
 
-    z-index: 2;
+    cursor: pointer;
 }
 
 .middle-box:hover {
@@ -178,7 +178,7 @@
 
     transition: transform 0.3s ease;
 
-    z-index: 2;
+    cursor: pointer;
 }
 
 .right-box:hover {

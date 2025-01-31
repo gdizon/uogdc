@@ -1,3 +1,5 @@
+'use client'
+
 import './home.css'
 
 import React from 'react';
@@ -24,8 +26,10 @@ const Home = () => {
                 <p className='description'>
                     Connect with like-minded game developers, learn new skills, and collaborate on exciting projects!
                 </p>
-                <Link href='https://forms.office.com/r/gMUWQT8KYS' target='_blank'>
-                    <Button className='btn'>JOIN NOW</Button>
+                <Link href='https://forms.office.com/r/gMUWQT8KYS' passHref legacyBehavior>
+                    <a target='_blank'>
+                        <Button className='btn'>JOIN NOW</Button>
+                    </a>
                 </Link>
             </div>
             <div className='right-half'>
