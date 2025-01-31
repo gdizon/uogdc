@@ -5,4 +5,155 @@
     color: white;
     
     height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-box {
+    background-color: #16082b;
+
+    width: 35%;
+    height: 70%;
+
+    margin-top: 10vh;
+
+    border-radius: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-start;
+    
+}
+
+.title-description h1 {
+
+    height: 13vh;
+
+    margin-left: 2vw;
+
+    /* padding-top: vh; */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    font-family: 'Titles';
+    font-size: 12vh;
+}
+
+.title-description p {
+
+    height: 7vh;
+
+    margin-left: 2vw;
+
+    padding-left: 0%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    font-family: 'general-writing';
+    font-size: 3vh;
+}
+
+.form {
+    color:black;
+
+    margin-left: 2vw;
+    
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 1.5vh;
+
+    font-family: 'general-writing';
+
+}
+
+input[type='text'], input[type='email'] {
+    padding-left: 0vw;
+}
+
+#name {
+    height: 5vh;
+    width: 30vw;
+
+    border-radius: 20px;
+}
+
+input[type='text'], input[type='email'] {
+    padding-left: 1vw;
+}
+
+#email {
+    height: 5vh;
+    width: 30vw;
+
+    border-radius: 20px;
+}
+
+input[type='message'] {
+
+    display: flex;
+    vertical-align: top;
+    text-align: left;
+    
+    padding-left: 1vw;
+}
+
+.msg {
+    display: flex;
+    align-items: flex-start;
+}
+
+#message {
+    height: 5vh;
+    width: 30vw;
+
+    padding-bottom: 25vh;
+    padding-top: 3vh;
+
+    border-radius: 20px;
+
+    /* resize: vertical;
+    vertical-align: top;
+    text-align: left;
+    overflow-y: auto; */
+}
+
+/* #message::placeholder {
+    padding-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#message:placeholder-shown {
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+} */
+
+textarea#message {
+    justify-content: first baseline;
+}
+
+.div-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-btn {
+    width: 7.5vw;
+
+    
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Titles';
+    font-size: 7vh;
 }
