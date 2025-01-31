@@ -32,4 +32,14 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
 ## Other Things I Installed 
-- 
+```bash
+npm install -D tailwindcss postcss autoprefixer
+#
+npm i next/font
+#
+npm i css-loader --save-dev
+#
+npm i next@canary
+```
+
+That's all for now, I'll make another README to fully explain the code
