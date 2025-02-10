@@ -1,7 +1,16 @@
 import { Inter } from 'next/font/google';
+// import localfont from 'next/font/local'
 import React, { ReactNode } from 'react';
 
 const inter = Inter({ subsets: ['latin'] });
+
+// const pixeled = localfont({
+//   src: [{
+//     path: '../../public/fonts/Pixeled.ttf',
+//     weight: '700',
+//   }],
+//   variable: '--font-pixeled'
+// })
 
 interface RootLayoutProps {
   children: ReactNode;

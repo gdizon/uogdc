@@ -52,7 +52,10 @@ module.exports = {
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
   			}
-  		}
+  		},
+		fontFamily: {
+			pixeled: ['var(--font-pixeled)']
+		}
   	}
   },
   plugins: [require("tailwindcss-animate")],

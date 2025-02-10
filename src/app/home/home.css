@@ -1,6 +1,81 @@
 #home {
+    background-color: #16082b;
+
     height: 100vh;
-    background-color: #4b286b;
-    background: linear-gradient(180deg, #4b286b 10%,#1a0a1e 100%);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.left-half {
+   
+    padding-top: 20vh ;
+    padding-left: 5vh;
+   
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-start;
+
+    width: 50%;
+}
+
+.title {
+
     color: white;
+
+     padding-left: 5vw;
+
+    font-family: 'Titles', sans-serif;
+    font-size: 9vw;
+
+
+}
+
+.description {
+
+    color: white;
+
+    padding-left: 5vw;
+    bottom: 5vh;
+
+    font-family: 'general-writing';
+    font-size: 2vw;
+    font-weight: 300;
+    
+    flex-wrap: wrap;
+}
+
+.btn {
+    border-top: 3px solid #aeff1a;
+    border-left: 3px solid #aeff1a;
+    border-bottom: 3px solid #06e7db;
+    border-right: 3px solid #06e7db;
+
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+
+    font-family: 'Titles';
+    font-size: 4vw;
+
+    left:5vw;
+    top: 10vh;
+    position: relative;
+
+
+    width: 12vw ;
+    height: 7vh;
+}
+
+
+.right-half {
+    padding-left: 7vw;
+    width: 50%;
+}
+
+.mac-homepage {
+    padding-top: 25vh;
+    padding-right:4vw;
+
+    margin: 0;
 }

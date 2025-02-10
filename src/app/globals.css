@@ -65,10 +65,234 @@
   }
 }
 
-.fixedButtons {
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  z-index: 10000000;
-  gap: 10px;
+
+
+
+/*---------------------------------------------------------------------------------------------------*/
+/*--------------------------------------FONT IMPORTS-------------------------------------------------*/
+
+/*-------- Font: Pixeled ---------*/
+/* USED IN:                                   
+            Buttons
+            [FILL THIS IN WHEN APPLICABALE]*/
+
+@font-face {
+  font-family: 'pixeled';
+  src: url('../../public/fonts/Pixeled.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
+
+/*-------- Font: Pixelmania -------*/
+/* USED IN:                                   
+            [FILL THIS IN WHEN APPLICABLE]*/
+
+@font-face {
+  font-family: 'pixelmania';
+  src: url('../../public/fonts/Pixelmania.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*--------- Font: Gameplay ---------*/
+/* USED IN:                                   
+            [FILL THIS IN WHEN APPLICABLE]*/
+
+@font-face {
+  font-family: 'Gameplay';
+  src: url(../../public/fonts/Gameplay.ttf), format('truetype');
+  font-weight:lighter;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DOS';
+  src: url('../../public/fonts/Good-Old-DOS.ttf'), format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*--------- Font: Titles ---------*/
+/* USED IN:                                   
+            Title: JOIN THE CLUB! 
+            Button: JOIN NOW
+            Title: ACTIVITIES
+            Title: ABOUT US
+            Title: CONTACT US
+*/
+@font-face {
+  font-family: 'Titles';
+  src: url(../../public/fonts/January\ Sunday.otf), format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*--------- Font: general-writing  ---------*/
+/* USED IN:                                   
+    HOME:        
+        Homepage description 
+    ACTIVITIES:
+        Game Jam descriptions
+        Game jam footnote
+            ...
+*/
+@font-face {
+  font-family: 'general-writing';
+  src: url(../../public/fonts/Description/AlteHaasGroteskRegular.ttf), format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+/*------------------------------------------*/
+
+/*--------- Font: general-writing-bold  ---------*/
+/* USED IN:                                    
+    ACTIVITIES:
+        Game jam titles
+            ...
+*/
+@font-face {
+  font-family: 'general-writing-bold';
+  src: url(../../public/fonts/Description/AlteHaasGroteskBold.ttf), format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+/*-----------------------------------------------*/
+
+@font-face {
+  font-family: 'Jogan';
+  src: url(../../public/fonts/JoganSoft-Regular.ttf), format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+/*---------------------------------------------------------------------------------------------------*/
+
+
+
+/*----------------------------------NAVIGATION BAR---------------------------------------------------*/
+.nav-bar {
+  background-color: red;
+  color: white;
+  border-top: 3px solid #aeff1a;
+  border-bottom: 3px solid #06e7db;
+
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  height: 4rem;
+  
+  margin-top: 4vh;
+
+  
+
+  z-index: 2374994877934499743989;
+}
+
+/*LEFT HAND SIDE OF NAVBAR, "UOTTAWA GAME DEV CLUB"*/
+#left-nav-side {
+  font-size: 2rem;
+  color: #f7f2f2;
+  
+
+  justify-content: space-between;
+  gap: 10px;
+  padding: 1.25rem 2rem 0.75rem 2rem;
+  font-size: 3rem;
+
+
+  font-family: 'DOS';
+  letter-spacing: 0.25rem;
+
+  z-index: 174994877934499743989;
+}
+
+/*-RIGHT HAND SIDE OF NAVBAR, THE BUTTONS*/
+#right-nav-side {
+  position: sticky;
+  transform: scale(0.9);
+
+  align-items: center;
+  display: flex;
+  
+  gap: 0.75vw;
+
+  font-size: small;
+  font-family: 'pixeled';
+
+  z-index: 174994877934499743989;
+}
+
+/*-----------------------------------------*/
+
+
+/*----------------BUTTONS-------------------*/
+
+/*-- HOME --*/
+
+.home-button {
+
+  border-top: 3px solid #aeff1a;
+  border-left: 3px solid #aeff1a;
+  border-bottom: 3px solid #06e7db;
+  border-right: 3px solid #06e7db;
+
+
+  padding: 2vh 1vw 2.75vh 1vw;
+
+  font-size: 1.75vh;
+  text-align: center;
+}
+
+/*-- ACTIVITIES --*/
+
+.activities-button {
+
+  border-top: 3px solid #aeff1a;
+  border-left: 3px solid #aeff1a;
+  border-bottom: 3px solid #06e7db;
+  border-right: 3px solid #06e7db;
+
+  padding: 2vh 1vw 2.75vh 1vw;
+
+  font-size: 1.75vh;
+}
+
+/*-- ABOUT --*/
+
+.about-button {
+
+  border-top: 3px solid #aeff1a;
+  border-left: 3px solid #aeff1a;
+  border-bottom: 3px solid #06e7db;
+  border-right: 3px solid #06e7db;
+  
+  padding: 2vh 1vw 2.75vh 1vw;
+  
+  font-size: 1.75vh;
+
+}
+
+/*-- CONTACT US --*/
+
+.contact-button {
+  
+  border-top: 3px solid #aeff1a;
+  border-left: 3px solid #aeff1a;
+  border-bottom: 3px solid #06e7db;
+  border-right: 3px solid #06e7db;
+  
+  padding: 2vh 1vw 2.75vh 1vw;
+  
+  font-family: 'pixeled';
+  font-size: 1.75vh;
+}
+
+/*-----------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------*/
+
+/*----------------------------------DEFAULT HOMEPAGE-------------------------------------------------*/
+
+/* RIGHT HOME SIDE */

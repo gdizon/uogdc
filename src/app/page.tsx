@@ -1,26 +1,14 @@
 "use client";
 
-// import { products } from '@/utils/products';
 import '../../public/css/style.css';
 import { Button } from "@/components/ui/button";
 import './globals.css';
 
 
 import Home from './home/page';
-import About from './about/page';
 import Activities from './activities/page';
+import About from './about/page';
 import Contact from './contact/page';
-
-// export function ButtonSecondary(link: string, => {
-//     butt = link
-// }) {
-//     return <Button variant={"secondary"}>{butt}</Button>
-// }
-
-// export function ButtonDemo(word: string) {
-//   return <Button variant={"secondary"}>{word}</Button>
-// }
-
 
 export default function Homepage(){
 
@@ -32,15 +20,24 @@ export default function Homepage(){
     }
 
     return (<>
-        <div className='fixedButtons'>
-            <Button onClick={() => scrollToSection('home')}>Home</Button>
-            <Button onClick={() => scrollToSection('about')}>About Us</Button>
-            <Button onClick={() => scrollToSection('activities')}>Activities</Button>
-            <Button onClick={() => scrollToSection('contact')}>Contact Us</Button>
+
+        <div className='default-page'>
+            <nav className='nav-bar'>
+                <div id='left-nav-side'>
+                    <h1>UOTTAWA GAME DEV CLUB</h1>
+                </div>
+                <div className='fixedButtons' id='right-nav-side'>
+                    <Button className='home-button' onClick={() => scrollToSection('home')}>HOME</Button>
+                    <Button className='activities-button' onClick={() => scrollToSection('activities')}>ACTIVITIES</Button>
+                    <Button className='about-button' onClick={() => scrollToSection('about')}>ABOUT US</Button>
+                    <Button className='contact-button' onClick={() => scrollToSection('contact')}>CONTACT US</Button>
+                </div>
+            </nav>
         </div>
+        
         <Home />
-        <About />
         <Activities />
+        <About />
         <Contact />
 
     </>)
