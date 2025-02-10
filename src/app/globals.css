@@ -239,9 +239,9 @@
   border-right: 3px solid #06e7db;
 
 
-  padding: 2.7vh 1vw 3.5vh 1vw;
+  padding: 2vh 1vw 2.75vh 1vw;
 
-  font-size: 1rem;
+  font-size: 1.75vh;
   text-align: center;
 }
 
@@ -254,9 +254,9 @@
   border-bottom: 3px solid #06e7db;
   border-right: 3px solid #06e7db;
 
-  padding: 2.7vh 1vw 3.5vh 1vw;
+  padding: 2vh 1vw 2.75vh 1vw;
 
-  font-size: 1rem;
+  font-size: 1.75vh;
 }
 
 /*-- ABOUT --*/
@@ -268,9 +268,9 @@
   border-bottom: 3px solid #06e7db;
   border-right: 3px solid #06e7db;
   
-  padding: 2.7vh 1vw 3.5vh 1vw;
+  padding: 2vh 1vw 2.75vh 1vw;
   
-  font-size: 1rem;
+  font-size: 1.75vh;
 
 }
 
@@ -283,10 +283,10 @@
   border-bottom: 3px solid #06e7db;
   border-right: 3px solid #06e7db;
   
-  padding: 2.5vh 1vw 3.5vh 1vw;
+  padding: 2vh 1vw 2.75vh 1vw;
   
   font-family: 'pixeled';
-  font-size: 1rem;
+  font-size: 1.75vh;
 }
 
 /*-----------------------------------------*/
