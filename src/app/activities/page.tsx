@@ -13,16 +13,14 @@ const Activities = () => {
             <div className='jams'>
                 <div>
                     <Link className='first' href='https://itch.io/jam/uogdc-june-jam-2024-boxedin' passHref legacyBehavior>
-                        <a target='_blank'>
-                            <div className='left-box'>
-                                <Image 
-                                    src='/imgs/Jams/boxed-in.png'
-                                    alt='June 2024 Game Jam'
-                                    height={190}
-                                    width={190}
-                                />
-                            </div>
-                        </a>
+                        <div className='left-box'>
+                            <Image 
+                                src='/imgs/Jams/boxed-in.png'
+                                alt='June 2024 Game Jam'
+                                height={190}
+                                width={190}
+                            />                            
+                        </div>
                     </Link>
                     <h1 className='left-title'>                                                                                                                                                                                                                                                                                                                  
                         Boxed In

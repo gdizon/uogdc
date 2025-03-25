@@ -1,16 +1,8 @@
 import { Inter } from 'next/font/google';
-// import localfont from 'next/font/local'
 import React, { ReactNode } from 'react';
+import Head from 'next/head'
 
 const inter = Inter({ subsets: ['latin'] });
-
-// const pixeled = localfont({
-//   src: [{
-//     path: '../../public/fonts/Pixeled.ttf',
-//     weight: '700',
-//   }],
-//   variable: '--font-pixeled'
-// })
 
 interface RootLayoutProps {
   children: ReactNode;
@@ -19,6 +11,9 @@ interface RootLayoutProps {
 export default function RootLayout({children}: RootLayoutProps) {
   return (
     <html lang='en'>
+      <Head>
+        <link rel='icon' href='/favicon.ico'/>
+      </Head>
       <body className={inter.className}>
 
         { children }

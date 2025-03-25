@@ -3,6 +3,7 @@
 import '../../public/css/style.css';
 import { Button } from "@/components/ui/button";
 import './globals.css';
+import Head from 'next/head'
 
 
 import Home from './home/page';
